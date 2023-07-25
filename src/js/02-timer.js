@@ -1,7 +1,8 @@
 // Описаний в документації
 import flatpickr from 'flatpickr';
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'flatpickr/dist/flatpickr.min.css';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 const inputData = document.querySelector('#datetime-picker');
 const startButton = document.querySelector('[data-start]');
 const btnStart = document.querySelector('[data-start]');
